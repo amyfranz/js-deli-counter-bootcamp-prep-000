@@ -23,7 +23,6 @@ function currentLine(array) {
     for (var i = 0; i < array.length; i++) {
       MSGReturn = MSGReturn + ` ${i}. ${array[i]}`;
     }
-    return array;
   }
   else {
     MSGReturn = 'The line is currently empty.';
