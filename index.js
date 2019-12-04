@@ -20,7 +20,7 @@ function currentLine(array) {
   var MSGReturn;
   if (array.length > 0) {
     MSGReturn = 'The line is currently:';
-    for (i = 0; i < array.length; i++) {
+    for (var i = 0; i < array.length; i++) {
       MSGReturn = MSGReturn + ` ${i}. ${array[i]}`;
     }
     return array;
